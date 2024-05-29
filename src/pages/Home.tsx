@@ -2,9 +2,10 @@ function Home() {
     return (
         <>
             <div className="
-                bg-white
+                bg-white 
                 flex 
                 justify-center
+                
                 ">
                 <div className='
                     container 
@@ -26,7 +27,18 @@ function Home() {
                             '>
                             Seja bem-vinde!
                         </h2>
-                        <p className='text-xl'>Cuidando de você desde sempre!</p>
+                        <p className='text-xl'>FarmaPonto é lugar de comprar medicamentos e cosméticos baratos!</p>
+
+                        <div className="flex justify-around gap-4">
+                            <button className='
+                                    rounded
+                                    bg-sky-300 
+                                    text-white 
+                                    py-2 
+                                    px-4
+                                    '>
+                            </button>
+                        </div>
                     </div>
 
                     <div className="flex justify-center ">
@@ -38,7 +50,8 @@ function Home() {
                     </div>
                 </div>
             </div>
-            {/* <ListarProdutosHome /> */}
+
+            
         </>
     )
 }
